@@ -1,0 +1,46 @@
+/* font-size mặc định là 16px */
+
+:root{
+   font-size:14px;
+   --color-text: #1814ee;
+   --color-heading: #dd2b2b;
+   --width: 100px;
+}
+
+.para{
+   --color-text: #1c9c2d;
+   font-size: 2rem;  
+}
+
+h1{
+   color: var(--color-heading);
+}
+
+h2{
+   --color-heading: #c9c92e;
+   color: var(--color-heading);
+}
+
+p{
+   color: var(--color-text);
+}
+
+.text{
+   font-size: 20px;
+}
+
+.text p{
+   font-size: 3em;
+}
+
+.box{
+   width: calc(var(--width) * 8);
+   height: calc(var(--width) * 4);
+   background-color:rgb(137, 202, 73);
+}
+
+.box-inner{
+   background-color:blue ;
+   width: 90vw;
+   height:50%;
+}
