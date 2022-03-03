@@ -5,6 +5,6 @@ Bla Bla
 
 Hãy xem bài của tôi
 
-- Bài 1: [Xem chi tiết](.web10/day01/index.html)
+- Bài 1: [Xem chi tiết](./web10/day01/index.html)
 
 ```
