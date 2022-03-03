@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="/day02/css/homework1.css">
+
+   <style>
+      table,
+      tr,
+      td,
+      th {
+         border: 1px solid black;
+      }
+
+      table {
+         border-collapse: double;
+         
+      }
+   </style>
+</head>
+<body>
+   <table>
+      <thead>
+         <tr>
+            <th colspan="2"> Đăng ký</th>
+            <!-- <th>Đăng ký</th> -->
+         </tr>
+      </thead>
+
+      <tbody>
+         <tr>
+            <td class="left-content">Full name</td>
+            <td class="right-content"><input type="text" name="" id="text" placeholder="Nhập fullname"></td>
+         </tr>
+
+         <tr>
+            <td class="left-content">Username</td>
+            <td class="right-content"><input type="text" name="" id="text" placeholder="Nhập tên"></td>
+         </tr>
+
+         <tr>
+            <td class="left-content">Password</td>
+            <td class="right-content"><input type="password" name="" id="text" placeholder="Nhập mật khẩu"></td>
+         </tr>
+
+         <tr>
+            <td class="left-content">Nhập lại Password</td>
+            <td class="right-content"><input type="password" name="" id="text" placeholder="Nhập lại mật khẩu"></td>
+         </tr>
+
+         <tr>
+            <td class="left-content">Giới tính</td>
+            <td class="right-content">
+               <input type="radio" name="gender" id="male">
+               <label for="male">Nam</label>
+               <input type="radio" name="gender" id="female">
+               <label for="female">Nữ</label>
+            </td>
+         </tr>
+
+         <tr>
+            <td class="left-content">Ngày sinh</td>
+            <td class="right-content">
+               <select name="" id="">
+                  <option value="">Ngày 1</option>
+                  <option value="">Ngày 2</option>
+                  <option value="">Ngày 3</option>
+                  <option value="">Ngày 4</option>
+               </select>
+
+               <select name="" id="">
+                  <option value="">Tháng 1</option>
+                  <option value="">Tháng 2</option>
+                  <option value="">Tháng 3</option>
+                  <option value="">Tháng 4</option>
+                  <option value="">Tháng 5</option>
+                  <option value="">Tháng 6</option>
+                  <option value="">Tháng 7</option>
+                  <option value="">Tháng 8</option>
+                  <option value="">Tháng 9</option>
+                  <option value="">Tháng 10</option>
+                  <option value="">Tháng 11</option>
+                  <option value="">Tháng 12</option>
+               </select>
+
+               <select name="" id="">
+                  <option value="">Năm 2015</option>
+                  <option value="">Năm 2016</option>
+                  <option value="">Năm 2017</option>
+                  <option value="">Năm 2018</option>
+                  <option value="">Năm 2019</option>
+               </select>
+            </td>
+         </tr>
+
+         <tr>
+            <td class="left-content">Địa chỉ</td>
+            <td class="right-content"><textarea name="" id="" cols="20" rows="2"></textarea></td>
+         </tr>
+
+         <tr>
+            <td class="left-content">Avatar</td>
+            <td class="right-content"><input type="file" name="" id=""></td>
+         </tr>
+
+         <tr>
+            <td class="left-content">Sở thích</td>
+            <td class="right-content">
+               <input type="checkbox" name="fav" id="fav1">
+               <lable for="fav1"> Xem phim</lable>
+               <input type="checkbox" name="fav" id="fav2">
+               <lable for="fav2"> Thể thao</lable>
+               <input type="checkbox" name="fav" id="fav3">
+               <lable for="fav3"> Web</lable>
+            </td>
+         </tr>
+         
+         <tr>
+            <td class="" colspan="2">
+               <div class="submit">
+               <input type="submit" value="Reset">
+               <input type="submit" value="OK">
+               </div>
+            </td>
+            <!-- <td>
+               <input type="submit" value="Reset">
+               <input type="submit" value="OK">
+            </td> -->
+         </tr>
+      </tbody>
+   </table>
+</body>
+</html>

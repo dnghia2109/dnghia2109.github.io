@@ -1,0 +1,37 @@
+table,tr,td,th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: double;
+}
+
+th {
+  padding: 6px;
+}
+
+.left-content {
+  width: 100px;
+  padding: 5px;
+}
+
+.right-content {
+  width: 280px;
+  padding: 5.5px 5px;
+}
+
+#text {
+  width: 234px;
+  height: 20px;
+}
+
+.submit {
+  /* width:100%;
+   margin: 0 auto; */
+  text-align: center;
+  padding: 5px;
+}
+
+.submit > input {
+  margin-right: 10px;
+}
