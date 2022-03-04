@@ -31,7 +31,7 @@ body {
 }
 
 .date{
-   background-color: #eb7f26;
+   background-color: #fe6d3f;
    color: #fff;
    display: flex;
    flex-direction:column;
@@ -95,7 +95,7 @@ body {
 }
 
 .info{
-   
+
 }
 
 .content >a{
