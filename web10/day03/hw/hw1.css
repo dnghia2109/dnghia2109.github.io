@@ -15,16 +15,19 @@ body {
    flex-direction:column;
    /* text-align: center; */
    /* justify-content: center; */
-   width: 500px;
+   width: 400px;
    margin: 60px auto;
    font-family: 'Roboto', sans-serif;
+   
+   
 }
 
 .year{
-   background-color: #ef5321;
+   background-color: #ef5321; 
    padding:10px;
    color: #fff;
    text-align: center;
+   border-top-left-radius: 5px;
 }
 
 .date{
@@ -35,6 +38,8 @@ body {
    text-align: center;
    justify-content: center;
    height: 150px;
+   border-bottom-left-radius: 5px;
+   
 }
 
 .date span{
@@ -48,18 +53,25 @@ body {
 
 .content {
    background-color: #fff;
-   padding: 10px 30px;
+   padding: 10px 20px;
    /* justify-content:left; */
+   /* border: 1px solid rgb(226, 57, 57); */
+   border-bottom-left-radius: 5px ;
+   border-bottom-right-radius: 5px;
+   /* margin-bottom: 5px; */
+   box-shadow: 0 1px 4px  rgb(0 0 0 / 50%);
    
 }
 
 .title{
-   margin-bottom: 20px;
+   margin-bottom: 10px;
 }
 
 .title a{
    text-decoration: none;
    color: #464646;
+   font-weight: bold;
+   font-size: 1.3rem;
 }
 
 .teacher{
@@ -69,5 +81,20 @@ body {
 .info{
    display: flex;
    flex-direction: column;
+   border-bottom: 1px solid #d3d1d1;
+   margin-bottom: 10px;
 }
 
+.info span{
+   margin-bottom: 10px;
+   color: #464646;
+}
+
+.info span i {
+   margin-right: 8px;
+}
+
+.content >a{
+   text-decoration: none;
+   color: #3094f1
+}
