@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;400&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.form{
+   margin: 50px auto;
+   padding: 30px 30px;
+   width: 543px;
+   /* display: flex;
+   flex-direction: column;
+   align-items: center; */
+   font-family: 'Roboto', sans-serif;
+   box-sizing: border-box;
+   border: 8px solid #956fe5;
+   height: auto;
+}
+
+.title{
+   margin-top: 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 30px;
+   text-align: center;
+   color: #464141;
+}
+
+.title h2{
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   font-weight: 100;
+   font-size: 44px;
+   /* font-size: 3rem; */
+}
+
+.title span{
+   margin: 10px;
+   font-size: 13px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   word-spacing: 1.2;
+   line-height: 1.4;
+   
+}
+
+.input {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.input *{
+   margin-bottom: 10px;
+   width: 90%;
+   padding: 10px 10px;
+   
+}
+
+.submit{
+   margin-bottom: 15px;
+   margin-left: 13px;
+}
+
+.submit *{
+   text-decoration: none;
+   font-size: 14px;
+   color: #363434;
+}
+
+.submit a{
+   color: #956fe5;
+}
+
+.container{
+   text-align: center;
+   
+}
+button{
+   padding: 10px 10px;
+   background-color: #956fe5;
+   color: white;
+   border: none;
+   width: 90px;
+   cursor: pointer;
+   font-family: "Open Sans", sans-serif;
+}
+
