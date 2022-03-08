@@ -1,0 +1,46 @@
+
+/* Flex container's properties */
+.container{
+   background-color: rgb(240, 238, 142);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;  
+   flex-wrap: wrap;
+   height: 400px;
+}
+
+.item{
+   width: 100px;
+   height: 100px;
+   background-color: #8de61a;
+   color: #fff;
+   font-size: 2rem;
+   margin: 1rem 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.item1{
+   order: 2;
+   /* flex-grow: 1; */
+}
+
+.item2{
+   order: 1;
+}
+
+.item3{
+   order: 0;
+}
+
+.item4{
+   order: -1;  
+   /* Xét vị trí phụ thuộc vào chiều của trục main */
+   /* flex-basis: 200px; */
+   /* flex-grow: 2;  
+   flex-shrink: 1;*/
+   /* align-self: center; */
+}

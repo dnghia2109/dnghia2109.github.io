@@ -21,7 +21,7 @@ img{
 
 .card {
    width: 350px;
-   box-shadow: 0 2px 4px rgb(0 0 0 / 15%);;
+   box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
    border-radius: 4px;
    margin: 50px auto;
    overflow: hidden;
