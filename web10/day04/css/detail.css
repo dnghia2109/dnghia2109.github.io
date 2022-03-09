@@ -1,22 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Roboto,sans-serif;
+}
 
 /* Style cho class detail */
+.body{
+   background-color: #f4f7fa;
+   height: 100%;
+   padding-top: 20px;
+   overflow: hidden;
+   box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+}
+
 .detail{
-   max-width: 700px;
+   max-width: 650px;
    display: flex;
    flex-direction: column;
+   margin: 20px auto;
+}
+
+.course-name{
+   background-color: #fff;
+   color: #464646;
    
 }
 
-.agent{
-   border-top: 1px solid #000;
-   padding-top: 10px;
-   display: flex;
+.course-name h2{
+   font-size: 1.2rem;
+   font-weight: 500;
+   margin: 20px 20px;
+   
+}
 
+/* Style cho class agent */
+.agent{
+   border-top: 1px solid rgba(0,0,0,.125);;
+   border-bottom: 1px solid rgba(0,0,0,.125);
+   padding-top: 10px;
+   padding-bottom: 20px;
+   display: flex;
+   background-color: #fff;
+   color: #464646;
 }
 
 .image img{
    border-radius: 50%;
-   margin-right: 20px;
-   margin-left: 20px;
+   margin: 20px 20px;
+   width:70%;
 }
 
+.in4-agent{
+   font-size: 16px;
+}
+
+.in4-agent span{
+   font-weight: bold;
+   margin-right: 10px;
+}
+
+.in4-agent button{
+   padding: 10px 10px;
+   font-size: 16px;
+   color: #fff;
+   background-color: #007bff;
+   border-color: #007bff;
+   border-width: 0;
+   border-radius: 4px;
+}
+
+/* Style cho class content */
+.content{
+   padding: 20px 20px;
+   border-bottom: 1px solid rgba(0,0,0,.125);
+   background-color: #fff;
+   color: #464646;
+}
+
+.content > h3{
+   font-weight: 500;
+   line-height: 1.2;
+   font-size: 1.75rem;
+   margin-bottom: 20px;
+   margin-top: 35px;
+}
+
+/* Style cho class rating */
+.rating{
+   display: flex;
+   /* flex-direction: column; */
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   background-color: #fafafa;
+}
+
+.rating-item{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.rating-ava img{
+   width: 30%;
+   border-radius: 50%;
+}
+
+.rating-detail{
+   padding: 10px 40px;
+}
+
+.rating-detail-name{
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.rating-detail-star{
+   color: rgb(255, 222, 34);
+}
+
+/* CSS phần footer */
