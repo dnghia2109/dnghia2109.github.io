@@ -6,16 +6,42 @@ body {
    font-family: Roboto,sans-serif;
 }
 
-/* Style cho class detail */
+
 .body{
    background-color: #f4f7fa;
    height: 100%;
-   padding-top: 20px;
+   /* padding-top: 20px; */
    overflow: hidden;
    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
 }
 
+/* Style cho navbar */
+.navbar{
+   background-color:#464646;
+   height: 40px;
+   margin-bottom: 20px;
+}
+
+.nav-list ul{
+   margin:0;
+   list-style-type: none;
+   display: flex;
+}
+
+.nav-list ul li{
+   text-align: center;
+   padding: 10px 10px;
+}
+
+.navbar a{
+   margin: 10px;
+   text-decoration: none;
+   color:#fff;
+}
+
+/* Style cho class detail */
 .detail{
+   /* padding-top: 10px; */
    max-width: 650px;
    display: flex;
    flex-direction: column;
@@ -69,10 +95,15 @@ body {
    border-color: #007bff;
    border-width: 0;
    border-radius: 4px;
+   cursor: pointer;
+}
+
+.in4-agent button span{
+   color: #fff;
 }
 
 /* Style cho class content */
-.content{
+.detail .content{
    padding: 20px 20px;
    border-bottom: 1px solid rgba(0,0,0,.125);
    background-color: #fff;
@@ -85,6 +116,16 @@ body {
    font-size: 1.75rem;
    margin-bottom: 20px;
    margin-top: 35px;
+}
+
+.detail .content h3 a{
+   text-decoration: none;
+   color: #007bff;
+}
+
+.price {
+   color: rgb(240, 15, 15);
+   font-weight: 700;
 }
 
 /* Style cho class rating */
@@ -119,8 +160,70 @@ body {
    font-size: 16px;
 }
 
-.rating-detail-star{
+.rating-detail-star>span{
    color: rgb(255, 222, 34);
 }
 
 /* CSS phần footer */
+.bossfooter{
+   
+   background-color: #464646;
+}
+
+
+.footer{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   width: 1200px;
+   padding: 30px 25px;
+   font-family: 'Roboto',sans-serif;
+   line-height: 2.5em;
+   margin: 0 auto;
+   background-color: #464646;
+}
+
+.footer .content{
+   flex-basis: 25%;
+}
+
+.footer .title{
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   font-size:18px;
+}
+
+.footer ul{
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+}
+
+.footer a, span{
+   text-decoration: none;
+   color: #919294;
+}
+
+.footer ul{
+   margin: 5px 10px;
+}
+
+.footer li{
+   margin: 10px 10px;
+   margin: -4px;
+   font-size: 14px;
+}
+
+.footer .social {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-start;
+   font-size: 1.8em;
+   margin-left: 20px;  
+}
+
+.footer .social span{
+   margin-left: 20px
+}
