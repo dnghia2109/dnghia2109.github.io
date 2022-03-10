@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+img{
+   max-width: 100%;
+   display: block;
+   margin: auto;
+   
+}
+
+.header{
+   height: 60px;
+   background-color: #34465c;
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo{
+   display: flex;
+   align-items: center;
+}
+
+.header .logo img{
+   width: 120px;
+}
+
+.sidebar .menu ul, .submenu {
+   list-style-type: none;
+}
+
+.menu > ul{
+   display: flex;
+}
+
+.sidebar{
+   max-width: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   margin-left: 150px;
+   height: 60px;
+}
+
+.menu > ul > li {
+   color: #fff;
+   margin: 0 16px;
+   /* line-height: 60px; */
+   height: 60px;
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+
+.menu >ul > li > span > i{
+   margin-left:5px;
+}
+
+.menu > ul > li:hover .submenu{
+   margin-top:5px;
+   display: block;
+   border-radius: 5px;
+}
+
+.submenu{
+   box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+   position: absolute;
+   top: 100%;
+   right: 0;
+   width: 200px;
+   display: none;
+}
+
+.submenu li {
+   color: #464646;
+   padding: .7rem 1rem;
+   text-align: center;
+}
+
+.submenu li:hover{
+   background-color: #c4c4c4;
+}
+
+.avatar{
+   position: relative;
+   height: 60px;
+   display: flex;
+   align-items: center;
+}
+
+.avatar img{
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   overflow: hidden;
+   
+}
+
+.avatar:hover .submenu{
+   display: block;
+   text-align: center;
+   margin-top: 5px;
+}
+
+.cart{
+   position: relative;
+   color: #fff;
+   margin-right: 20px;
+}
+
+.cart-icon i{
+   font-size: 20px;
+}
+
+.cart-quantity {
+   border: solid 1px #26a69a;
+   border-radius: 4px;
+   width: 90%;
+   text-align: center;
+   background-color: #26a69a;
+   position: absolute;
+   top: -17px;
+   right: -12px;
+}
