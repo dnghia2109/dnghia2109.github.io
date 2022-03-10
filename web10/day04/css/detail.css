@@ -118,6 +118,10 @@ body {
    margin-top: 35px;
 }
 
+.content ul li{
+   line-height: 1.9
+}
+
 .detail .content h3 a{
    text-decoration: none;
    color: #007bff;
