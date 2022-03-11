@@ -6,7 +6,7 @@
 }
 
 body{
-   background-color: #dad8d8;
+   background-color: #f4f7fa;
    height: fit-content;
    font-family: 'Roboto', sans-serif;
 }
@@ -214,7 +214,7 @@ img{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   padding: 0 150px;
+   padding: 20px;
    /* max-width:900px; */
 }
 
@@ -223,7 +223,7 @@ body a{
 }
 
 .info{
-   flex-basis: 33.3%;
+   flex-basis: 25%;
    max-width:100%;
    background-color: #fff;
    padding: 10px 30px;
@@ -235,10 +235,10 @@ body a{
 .card{
    display: flex;
    flex-direction: column;
-   width: 310px;
+   width: 290px;
    /* line-height: 1.5; */
    font-family: "Roboto", sans-serif;
-   margin: 1rem 1rem; 
+   margin: 1.5rem 0.5rem; 
    border-radius: 5px;
    box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
    overflow: hidden;
