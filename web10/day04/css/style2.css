@@ -71,6 +71,7 @@ img{
    border-radius: 5px;
    background-color: #ffffff;
    cursor: pointer;
+   z-index: 2;
 }
 
 .submenu li {
@@ -84,6 +85,7 @@ img{
    background-color: #c9c8c8;
    overflow: hidden;
    cursor: pointer;
+   
 }
 
 
@@ -293,6 +295,7 @@ body a{
    display: flex;
    align-items: center;
    justify-content: center;
+   z-index: 1;
 }
 .search form{
    display: flex;
