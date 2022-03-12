@@ -287,5 +287,48 @@ body a{
 }
 
 
+/* Style cho thanh Search */
+.search{
+   margin-top: 40px ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.search form{
+   display: flex;
+   align-items: center;
+   position: relative;
+   margin-left: -50px;
+}
+.input{
+   border: 2px solid #34465c;
+   border-radius: 5px;
+   width: 400px;
+   height: 45px;
+   font-size: 16px;
+   padding-left: 10px;
+}
+.btn-search {
+   border-radius: 50%;
+   font-size: 16px;
+   width: 50px;
+   height: 50px;
+   color: #fff;
+   background-color: #34465c;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   position: absolute;
+   right: -30px;
+   
+}
+.btn-search:hover{
+   color: #fff;
+}
 
+::placeholder{
+   opacity: 0.5;
+   font-size: 16px;
+}
 
