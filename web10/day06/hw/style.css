@@ -14,19 +14,18 @@ body {
 }
 
 .card {
-  
-  width: 300px;
-  position: relative;
-  /* z-index: 0; */
-  /* background-color: #fff; */
-  height: 400px;
-  box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
-  /* overflow: hidden; */
+   width: 300px;
+   /* z-index: 0; */
+   /* background-color: #fff; */
+   height: 400px;
+   box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+   /* overflow: hidden; */
+   position: relative;
 }
 
 /* Style calendar */
-.date-month {
-   border: 1px solid #ff5743;
+.date-month-detail {
+   /* border: 1px solid #ff5743; */
    width: 45px;
    height: 45px;
    border-radius: 50%;
@@ -37,12 +36,13 @@ body {
    right: 15px;
    top: 15px;
    z-index: 10;
+   
 }
-.date-month-content {
+.date-month-detail {
    padding: 5px;
- }
+}
 .date {
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 400;
 }
  
@@ -147,6 +147,7 @@ body {
    margin-left: 24px;
 }
 
+/* Style khi hover */
 .card:hover .image img {
    transform: scale(1.2);
    opacity: 0.5;
