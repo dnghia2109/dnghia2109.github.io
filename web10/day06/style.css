@@ -1,5 +1,138 @@
-.box {
-   width: 100px;
-   height: 300px;
-   color: blue;
+/* .box {
+  background-color: blue;
+  width: 200px;
+  height: 100px; */
+
+  /* transform-origin: width,height;
+  transition-duration: 0.5s,1s; */
+
+  /* transition-property: all;
+  transition-duration:0.5s;
+  transition-delay: 1s; */
+
+  /* transition: all 0.5s 1s; */
+
+
+  /* border: 1px solid black;
+  border-width: 1px;
+  border-style:solid;
+  border-color:black; */
+/*}
+/* .box:hover {
+  width: 300px;
+  height: 200px;
+} */
+
+*{
+   margin: 0;
+   padding: auto;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   overflow: hidden;
+
+}
+
+.box{
+   width: 400px;
+   background-color:black;
+   color:white;
+   padding:20px;
+   overflow: hidden;
+}
+
+/* .box h2{
+   position: relative;
+   left: -200px;
+   
+   transition: all 0.5s;
+}
+
+.box:hover h2{
+   left: 0;
+} */
+
+.box h2{
+   transform: translateX(-200px);
+   transition: all 0.5s;
+}
+
+.box:hover h2 {
+   transform: translateX(0px);
+}
+
+.box p{
+   transform: translateX(500px);
+   transition: all 1s;
+}
+
+.box:hover p {
+   transform: translateX(0px);
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+/* Thuộc tính mặc định khi sừ dụng thẻ img */
+img{
+   max-width:100%;
+   display:block;
+   margin:auto;
+}
+
+.card {
+   width: 350px;
+   box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+   border-radius: 4px;
+   margin: 50px 20px;
+   overflow: hidden;
+}
+
+.content{
+   padding: 20px 30px;
+}
+
+.content h2{
+   font-size: 19px;
+   color: #464646;
+   margin-bottom: 16px;
+   /* margin-top: 10px; */
+}
+
+.content .type, .content .rating {
+   color: #817d7d;
+   font-size: 14px;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+
+.content .rating i{
+   color:#fbff0f;
+}
+
+.card1{
+   position: relative;
+   height: 500px;
+}
+
+
+
+.image1{
+   /* position: absolute; */
+   left: 0;
+   bottom:0;
+   right: 0;
+   top: 0;
+   position: absolute;
 }
