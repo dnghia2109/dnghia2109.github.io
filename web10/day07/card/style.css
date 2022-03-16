@@ -1,0 +1,88 @@
+/* DÙng import thì không dùng LINK ở bên trang html và ngc lại */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap'); */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+/* Thuộc tính mặc định khi sừ dụng thẻ img */
+img{
+   max-width:100%;
+   display:block;
+   margin:auto;
+}
+
+.card {
+   width: 350px;
+   box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+   border-radius: 4px;
+   margin: 50px auto;
+   overflow: hidden;
+}
+
+.content{
+   padding: 20px 30px;
+
+   overflow: hidden;
+}
+
+/* .content h2{
+   font-size: 19px;
+   color: #464646;
+   margin-bottom: 16px;
+   
+} */
+
+/* .content .type, .content .rating {
+   color: #817d7d;
+   font-size: 14px;
+   font-weight: 500;
+   margin-bottom: 10px;
+} */
+
+.content .rating i{
+   color:#fbff0f;
+}
+
+.content p {
+   animation: ani 2s ;
+   position: relative;
+   /* overflow: hidden; */
+}
+
+@keyframes ani {
+   from {
+      
+      top:0;
+      left: 300px;
+   }
+   to {
+      top:0;
+      left:0;
+   }
+}
+
+.content h2{
+   animation: animation 2s  ;
+   position: relative;
+}
+
+@keyframes animation {
+   from {
+      
+      top:0;
+      right: 200px;
+   }
+   to {
+      
+      top: 0;
+      right:0;
+   }
+}

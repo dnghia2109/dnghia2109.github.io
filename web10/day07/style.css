@@ -1,0 +1,58 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.box{
+   width: 200px;
+   height: 200px;
+   background-color: #000000;
+
+   /* animation-name: ani;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate ; */
+
+   /* Cách viết gộp */
+   animation: ani 4s infinite alternate; 
+
+@keyframes ani {
+   /* from{
+      transform: translateX(0);
+      background-color: #000000;
+   }
+   to{
+      transform: translateX(200px);
+      background-color: tomato;
+   } */
+   
+   0%{
+      top: 0;
+      left: 0;
+      background-color: #000000;
+   }
+
+   25%{
+      top: 0;
+      
+      background-color: tomato;
+   }
+
+   50%{
+      transform: translateX(200px);
+      transform: translateY(200px);
+      background-color: rgb(71, 114, 255);
+   }
+
+   75%{
+      transform: translateX(0);
+      transform: translateY(200px);
+      background-color: rgb(77, 202, 19);
+   }
+
+   100%{
+      transform: translateX(0);
+      transform: translateY(0);
+      background-color: rgb(221, 62, 150);
+   } 

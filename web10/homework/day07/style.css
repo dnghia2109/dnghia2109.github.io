@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.card{
+   width: 1000px;
+   height: 600px;   
+   background-image: url(./2022.jpg);
+   margin: auto;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   margin-top: 30px;
+   position: relative;
+   color: #fff;
+   font-family: 'Ubuntu Mono', monospace;
+}
+
+/* .snow {
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   background: white;
+   border-radius: 60%;
+   z-index: 1;
+} */
+
+.wavy-text{
+   margin: 10px 20%;
+   top: 15px; 
+   position: absolute;
+}
+
+.space1 {
+   margin-left: 220px;
+}
+
+.space2{
+   margin-left: 400px;
+}
+
+.wavy-text span{
+   padding: 2px;
+   position: relative;
+   display: inline-block;
+   font-size: 2rem;
+   color: #eec76b;
+   /* text-transform: uppercase; */
+   animation: animate 2s ease-in-out infinite;
+   animation-delay: calc(0.1s * var(--i));
+
+}
+@keyframes animate{
+   0%{
+      transform: translateY(0px);
+   }
+   20%{
+      transform: translateY(-10px);
+   }
+   40%, 100%{
+      transform: translateY(0px);
+   }
+}
+
+.content-1 {
+   width: 90%;
+   position: absolute;
+   bottom: 0;
+   display: flex;
+   justify-content: space-around;
+   margin: 10px 0px;
+}
+
+.content-text{
+   width: 50%;
+   
+   display: flex;
+   flex-direction: column;
+   line-height: 1.5;
+}
+
+.title:last-child{
+   margin-left: 25px;
+}
+
+.signature {
+   margin-top: 10px;
+}
+
+.signature .text{
+   margin-left: -25px;
+}
+
+.signature i{
+   /* position: absolute; */
+   margin-bottom: 10px;
+   font-size: 3.5rem;
+   color: pink;
+   animation: heart 0.75s infinite;
+}
+@keyframes heart {
+   0%{
+      transform: scale(1);
+   }
+   50%{
+      transform: scale(1.2);
+   }
+   100%{
+      transform: scale(1);
+   }
+}
+
+

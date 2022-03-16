@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 body {
-  font-family: "Fredoka";
-  /* background-color: rgb(175, 170, 170); */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
+   font-family: "Fredoka";
+   /* background-color: rgb(175, 170, 170); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
 }
 
 .card {
@@ -81,7 +81,6 @@ body {
    width: 60px;
    font-size: 0.65rem;
    font-weight: 500;
-   
    bottom: 0;
    left: 0;
 }

@@ -1,0 +1,51 @@
+* {
+   margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.snow {
+   position: relative;
+}
+
+/* Kích thước bông tuyết */
+.snow-size-1 {
+   font-size: 20px;
+}
+
+.snow-size-2{
+   font-size: 24px;
+}
+
+.snow-size-3{
+   font-size: 0,5rem;
+}
+
+/* Animation  */
+.snow-ani-1{
+   animation: snow1 2s infinite;
+}
+
+@keyframes snow1 {
+   0%{
+      top: 100px;   
+   }
+
+   25%{
+      transform: translate(20px, 20px);
+   }
+
+   50%{
+      transform: translate(20px, 40px);
+   }
+
+   75%{
+      transform: translate(px, 55px)
+   }
+}
+
+.snow-ani-2 {
+   animation: snow2 4s infinite;
+}
+
+@keyframes snow2 {
+   
+}
