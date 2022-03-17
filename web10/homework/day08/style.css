@@ -8,7 +8,7 @@
 }
 
 body {
-   font-family: 'Product Sans', sans-serif;
+   font-family: 'Ubuntu', sans-serif;
    background-image: url(./image/slider_1.webp);
    background-repeat: no-repeat;
    background-size: cover;
@@ -281,7 +281,7 @@ ul {
 .item-list span{
    
    font-size: 15px;
-   font-family: 'Product Sans';
+   font-family: 'Ubuntu', sans-serif;
 }
 .item a{
   text-align: center;
@@ -305,9 +305,10 @@ ul {
 /* Style cho Product1 */
 .product1 {
    display: flex;
-   width: 1300px;
+   width: 100%;
    /* margin-left:100px; */
    justify-content: center;
+   margin: auto auto;
 }
 
 /* Style cho product1-left */
@@ -428,7 +429,6 @@ ul {
 }
 .link-click a{
    opacity: 0.9;
-   font-weight: 500;
    font-size: 15px;
    padding: 0 5px;
    color: #252525;
@@ -458,23 +458,29 @@ ul {
    border-radius: 2px;
    width: 200px;
    overflow: hidden;
+   max-height: 292px;
 }
 .product-list a{
    color: #252525;
    font-size: 14px;
    text-decoration: none;
    display: inline-block;
-
 }
 .product-list a img{
    width: 200px;
    height: 200px;
    overflow: hidden;
+   position: relative;
 }
+
+
+
 .product-list:hover a img{
    /* opacity: 0.5; */
-   transform: scale(1.1);
+   height: 180px;
+   /* transform: scale(1.1); */
    transition: all 0.5s;
+   object-fit: cover;
 }
 .product-list a span{
    margin-top:20px;
@@ -605,7 +611,7 @@ ul {
 .info-footer img{
    width: 60px;
    display: inline;
-   padding-right: 0 10px;
+   padding-right: 10px;
 }
 
 .info-footer h1{
@@ -617,15 +623,20 @@ ul {
 .info-footer span{
    display: block;
    font-size: 14px;
-   font-family: product Sans;
+   font-family: 'Ubuntu', sans-serif;
    color: #fff;
 }
 
 /* Style cho Footer */
+.footer{
+   padding-bottom: 40px;
+}
+
 .footer-content{
    display: flex;
    justify-content: center;
    width: 100%;
+   height: 242px;
 }
 
 .footer-left{
@@ -686,7 +697,7 @@ ul {
    padding-left: 10px;
    position: relative;
    text-decoration: none;
-   font-family: product Sans;
+   font-family: 'Ubuntu', sans-serif;
    color: #252525;
    display: block;
    padding: 5px 0;
