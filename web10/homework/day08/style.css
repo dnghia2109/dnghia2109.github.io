@@ -595,6 +595,8 @@ ul {
    margin-top: 50px;
    background-color:#f7941d;
    width: 100%;
+   display: flex;
+   justify-content: center;
 }
 .service-content{
    display: flex;
@@ -629,18 +631,31 @@ ul {
 
 /* Style cho Footer */
 .footer{
-   padding-bottom: 40px;
+   padding-bottom: 50px;
+   display: flex;
+   justify-content: center;
 }
 
 .footer-content{
    display: flex;
    justify-content: center;
    width: 100%;
-   height: 242px;
+   /* height: 252px; */
 }
+
+/* .footer-left{
+   width: 300px;
+}
+
+.footer-right, .footer-center{
+   width: 390px;
+   
+} */
 
 .footer-left{
    margin-top: 45px;
+   max-width: 330px;
+   overflow: hidden;
 }
 
 .footer-left img{
@@ -651,6 +666,7 @@ ul {
    display: block;
    color: #252525;
    font-size: 18px;
+   width: 80%;
 }
 .footer-left span{
    color: #252525;
@@ -659,6 +675,7 @@ ul {
 .footer-center{
    display: flex;
    justify-content: center;
+   
 }
 
 .footer-center-content{
