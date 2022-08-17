@@ -15,24 +15,23 @@ let isUpdate = false;
 // DANH SÁCH API
 // 1. Lấy danh sách tất cả công việc
 const getTodoApi = (status) => {
-//   return axios.get(URL_API); // axios.get luôn trả về promise
+  //   return axios.get(URL_API); // axios.get luôn trả về promise
 
-	switch (status) {
-		case "all": {
-			return axios.get(`${URL_API}`);
-		}
-		case "active": {
-			return axios.get(`${URL_API}?status=true`);
-		}
-		case "unactive": {
-			return axios.get(`${URL_API}?status=false`);
-		}
-		default: {
-			return axios.get(`${URL_API}`);
-		}
-	}
+  switch (status) {
+    case "all": {
+      return axios.get(`${URL_API}`);
+    }
+    case "active": {
+      return axios.get(`${URL_API}?status=true`);
+    }
+    case "unactive": {
+      return axios.get(`${URL_API}?status=false`);
+    }
+    default: {
+      return axios.get(`${URL_API}`);
+    }
+  }
 };
-
 
 // 2. Xóa công việc
 const deleteTodoApi = (id) => {
@@ -172,30 +171,27 @@ btn_addEl.addEventListener("click", async () => {
   } else {
     createTodo(todoTitle);
   }
-
-  createTodo(todoTitle);
   todo_inputEl.value = "";
 });
-
 
 // 6. lọc theo trạng thái
 const todo_option_item = document.querySelectorAll(".todo-option-item input");
 
 // Lấy giá trị trong 1 ô input radio
 function getOptionSelected() {
-    for (let i = 0; i < todo_option_item.length; i++) {
-        if (todo_option_item[i].checked) {
-            return todo_option_item[i].value;
-        }
+  for (let i = 0; i < todo_option_item.length; i++) {
+    if (todo_option_item[i].checked) {
+      return todo_option_item[i].value;
     }
+  }
 }
 
 // Lắng nghe sự thay đổi của từng input radio, nếu xảy ra sự thay đổi nào về mặt lựa chọn thì gọi API để lấy dữ liệu và hiển thị lại
 todo_option_item.forEach((btn) => {
-    btn.addEventListener("change", function () {
-        let optionSelected = getOptionSelected();
-        getTodo(optionSelected);
-    });
+  btn.addEventListener("change", function () {
+    let optionSelected = getOptionSelected();
+    getTodo(optionSelected);
+  });
 });
 
 // Hiển thị danh sách todo ra ngoài dao diện
