@@ -1,5 +1,5 @@
-const URL_API = "https://course-list-01.herokuapp.com/api/course";
-const URL_SP_API = "https://course-list-01.herokuapp.com/supporter";
+const URL_API = "https://exam-01.herokuapp.com/api/course";
+const URL_SP_API = "https://exam-01.herokuapp.com/api/supporter";
 
 const param = new URLSearchParams(window.location.search);
 

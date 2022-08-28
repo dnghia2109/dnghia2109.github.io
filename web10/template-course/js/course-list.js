@@ -1,5 +1,5 @@
 const courseListEl = document.querySelector(".course-list");
-const URL_API = "https://course-list-01.herokuapp.com/api/courses";
+const URL_API = "https://exam-01.herokuapp.com/api/courses";
 //Lưu ds khóa học
 let courses = [];
 // Đặt biến ở URL
