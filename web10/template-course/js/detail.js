@@ -52,24 +52,24 @@ const renderCourse = (course, supporter) => {
         supporterEl.innerHTML = `<p>Empty</p>`
     } else {
         supporterEl.innerHTML = `
-        <div class="supporter d-flex align-items-center">
-            <div class="supporter-image">
-                <img src="${supporter.avatar}" alt="tư vấn viên" class="rounded-circle w-75 h-75">
-            </div>
-            <div class="supporter-info">
-                <p>
-                    <b>Tư vấn viên :</b>
-                    ${supporter.name}
-                </p>
-                <p>
-                    <b>Email :</b>
-                    ${supporter.email}
-                </p>
-                <p>
-                    <b>Số điện thoại :</b>
-                    ${supporter.phone}
-                </p>
-            </div>
+            <div class="supporter d-flex align-items-center">
+                <div class="supporter-image">
+                    <img src="${supporter.avatar}" alt="tư vấn viên" class="rounded-circle w-75 h-75">
+                </div>
+                <div class="supporter-info">
+                    <p>
+                        <b>Tư vấn viên :</b>
+                        ${supporter.name}
+                    </p>
+                    <p>
+                        <b>Email :</b>
+                        ${supporter.email}
+                    </p>
+                    <p>
+                        <b>Số điện thoại :</b>
+                        ${supporter.phone}
+                    </p>
+                </div>
             </div>
         `
     }
