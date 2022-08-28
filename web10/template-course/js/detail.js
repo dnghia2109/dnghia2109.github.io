@@ -39,43 +39,40 @@ const getCourse = async () => {
     }
 }
 
-
 const renderCourse = (course, supporter) => {
    
     breadcrumbEl.innerHTML = `
-            <li class="breadcrumb-item"><a href="./course-list.html">Khóa học</a></li>
-            <li class="breadcrumb-item active" aria-current="page">${course.title}</li>
-        `
+                                <li class="breadcrumb-item"><a href="./course-list.html">Khóa học</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">${course.title}</li>
+                            `
     titleEl.innerText = course.title;
     descriptionEl.innerText = course.description;
 
-        if(supporter == null){
-            supporterEl.innerHTML = `<p>No supporter</p>`
-        } else {
-            supporterEl.innerHTML = `
-            <div class="supporter d-flex align-items-center">
-                <div class="supporter-image">
-                    <img src="${supporter.avatar}" alt="tư vấn viên" class="rounded-circle w-75 h-75">
-                </div>
-                <div class="supporter-info">
-                    <p>
-                        <b>Tư vấn viên :</b>
-                        ${supporter.name}
-                    </p>
-                    <p>
-                        <b>Email :</b>
-                        ${supporter.email}
-                    </p>
-                    <p>
-                        <b>Số điện thoại :</b>
-                        ${supporter.phone}
-                    </p>
-                </div>
-             </div>
-            `
-        }
+    if(supporter == null){
+        supporterEl.innerHTML = `<p>Empty</p>`
+    } else {
+        supporterEl.innerHTML = `
+        <div class="supporter d-flex align-items-center">
+            <div class="supporter-image">
+                <img src="${supporter.avatar}" alt="tư vấn viên" class="rounded-circle w-75 h-75">
+            </div>
+            <div class="supporter-info">
+                <p>
+                    <b>Tư vấn viên :</b>
+                    ${supporter.name}
+                </p>
+                <p>
+                    <b>Email :</b>
+                    ${supporter.email}
+                </p>
+                <p>
+                    <b>Số điện thoại :</b>
+                    ${supporter.phone}
+                </p>
+            </div>
+            </div>
+        `
+    }
 }
-
-
 
 getCourse();
