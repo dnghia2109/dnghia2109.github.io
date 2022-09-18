@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    background-color: #d6d9db;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar-brand h2 {
+    color: #1e1e1e;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.navbar {
+    padding: 25px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item a{
+    color: rgb(8, 8, 8);
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.nav-item a:hover {
+    color: orangered;
+    transition: 0.5s;
+}
+
+/* SLIDE */
+
+.item {
+    position: relative;
+    height: 400px;
+    
+    margin: 10px;
+}
+
+/* .item .thumbnail{
+    height: 250px;
+    overflow: hidden;
+}
+*/
+
+.item .thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(209, 70, 70);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev, .slick-next {
+    z-index: 3;
+    margin-left: 50px;
+}
+
+.slick-next {
+    margin-right: 60px;
+}
+
+
+
+.thumbnail {
+    position: absolute;
+}
+
+.item-content {
+    position: absolute;
+    bottom: 20px;
+    color: #f48840;
+}
+
+.item-content a {
+    color: #fff;
+    font-size: 35px;
+}
+
+.item-bottom-info {
+    display: flex;
+    
+}
+
+.item-bottom-info p {
+    margin-right: 10px;
+    color: #fff;
+}
+
+/* BLOG SPOT */
+
+.blog-spots {
+    margin: 20px 0px;
+    
+}
+
+.blog-spot {
+    border: solid 1px gainsboro;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.blog-spot .blog-thumbnail img{
+    /* width: fit-content; */
+    object-fit: cover;
+    
+}
+
+.blog-content {
+    margin: 20px 50px;
+}
+
+.blog-content span {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #f48840;
+    
+}
+
+.blog-content a h4 {
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+.blog-content-text {
+    margin: 15px 0;
+    line-height: 2;
+    color: rgb(20, 20, 20);
+    
+    border-bottom: solid 1px #eee;
+}
+
+.blog-content-bottom-info {
+    display: flex;
+    border-bottom: solid 1px #eee;
+}
+
+.blog-content-bottom-info p {
+    margin-right: 10px;
+    color: rgb(56, 53, 53);
+}
