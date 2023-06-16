@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+* {
+    margin: unset;
+    padding: unset;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    height: 520px;
+    width: 715px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+    padding: 48px 40px 36px 40px;
+    border: 1px solid #dcdcdd;
+}
+
+.container-left {
+    width: 380px;
+    background-color: #fff;
+}
+
+.title .logo img {
+    width: 75px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.title span {
+    font-size: 24px;
+    line-height: 32 px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+}
+
+.fg {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.form-group {
+    margin: 20px 0px;
+    position: relative;
+}
+
+input{ 
+    height: 20px;
+    width: 163px;
+    outline: none;
+    border: 1px solid #dadce0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: inherit;
+    transition: all .2s ease-in-out;
+}
+
+
+label {
+    position: absolute;
+    padding: 0px 5px;
+    left: 5px;
+    top: 50%;
+    pointer-events: none;
+    transform: translateY(-50%);
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+    color: #5F6368;
+    font-size: 17px;
+}
+
+.form-group input:focus {
+    border: 2px solid #1A9EF0;
+}
+
+.form-group input:focus + label,
+.form-group input:valid + label{
+    top: 0;
+    font-size: 13px;
+    color: #1A9EF0;
+    font-weight: 100;
+}
+
+.form-group-ac {
+    width: 380px;
+    height: 41.6px; 
+    border-radius: 5px solid #dadce0;
+    margin-top: -20px;
+}
+
+.form-group-ac .form-group input{
+    width: 358px;
+}
+
+.note-01 span {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #5f6368;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.note-02 {
+    margin-top: 15px;
+}
+
+.note-02 .nt {
+    width: 265px;
+    height: 30px;
+    margin-top: -7px;
+    padding-top: 11px;
+}
+
+.note-02 .nt:hover {
+    background-color:  #F6F9FE;
+}
+
+.note-02 .nt span{
+    font-size: 15px;
+    color: #6b7cfe;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.note-02 .nt span:hover {
+    color: rgb(75, 75, 255);
+}
+
+.show-pw {
+    height: 44px;
+    width: 354px;
+    display: flex;
+    align-items: center;
+}
+
+.show-pw input {
+    margin-left: -70px;
+}
+
+.show-pw p {
+    margin-left: -50px;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+}
+
+.login-ac {
+    width: 378px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    margin-top: 30px;
+    margin-left: -8px;
+}
+
+.login-ac .login{
+    width: 93px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7cfe;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.login-ac .login:hover{
+    background-color:  #F6F9FE;
+    cursor: pointer;
+    color: #174EA6;
+}
+   
+.login-ac .next{
+    width: 111px;
+    height: 35px;
+    color: #fff;
+    background-color: #1B66C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.login-ac .next:hover{
+    background-color: blue;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+}
+
+.container-right {
+    width: 310px;
+    margin-left: 30px;
+    padding-top: 65px;
+}   
+
+.account {
+    padding: 0 33px;
+}
+
+.account img {
+    width: 244px;
+    height: 244px;
+}
+
+.account figcaption{
+    font-size: 16px;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    font-weight: 300;
+}
+
+.Accessibility {
+    height: 22px;
+    width: 715px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+}
+
+.Accessibility .a {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Accessibility .acg {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
